@@ -156,6 +156,6 @@ Canny_photo_button.place(relx=0.5,rely=0.7,anchor =tk.CENTER)
 compress_photo_button = tk.Button(root, text="Compress image", bg="#666666",height=1,width=18 ,font=("Arial", 16),command=compress)
 compress_photo_button.place(relx=0.5,rely=0.8,anchor =tk.CENTER)
 
-credit=tk.Label(root,text="DC Innovative Assignment\nBy: 21BCE002, 21BCE003 and 21BCE049", bg="#737373" ,font=("Arial Rounded MT Bold", 15))
+credit=tk.Label(root,text="Image Processing by Dev Bachani", bg="#737373" ,font=("Arial Rounded MT Bold", 15))
 credit.place(relx=0.5,rely=0.1,anchor =tk.CENTER)
 root.mainloop()
